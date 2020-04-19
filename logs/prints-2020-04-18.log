@@ -1,0 +1,13 @@
+17:06:07.443 [main] INFO  resources.Base - Driver is initialized
+17:06:15.582 [main] INFO  resources.Base - Button in Landing page to go to Login page is clicked
+17:06:15.897 [main] INFO  resources.Base - email successfully entered
+17:06:16.100 [main] INFO  resources.Base - password successfully entered
+17:06:16.211 [main] INFO  resources.Base - login button successfully clicked
+17:06:19.559 [main] INFO  resources.Base - Button in Landing page to go to Login page is clicked
+17:06:19.968 [main] INFO  resources.Base - email successfully entered
+17:06:20.178 [main] INFO  resources.Base - password successfully entered
+17:06:20.250 [main] INFO  resources.Base - login button successfully clicked
+17:06:24.570 [main] INFO  resources.Base - Driver successfully closed
+20:45:08.829 [main] INFO  resources.Base - Driver is initialized
+20:45:21.457 [main] INFO  resources.Base - Button in Landing page to go to Login page is clicked
+20:45:21.730 [main] INFO  resources.Base - email successfully entered

@@ -1,0 +1,5 @@
+19:21:00.107 [main] INFO  resources.Base - Button in Landing page to go to Login page is clicked
+19:21:00.368 [main] INFO  resources.Base - email successfully entered
+19:21:00.508 [main] INFO  resources.Base - password successfully entered
+19:21:00.614 [main] INFO  resources.Base - login button successfully clicked
+19:21:00.785 [main] INFO  resources.Base - Driver successfully closed

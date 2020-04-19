@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32269" started-at="2020-04-19T19:20:28 EET" finished-at="2020-04-19T19:21:00 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32269" started-at="2020-04-19T19:20:28 EET" finished-at="2020-04-19T19:21:00 EET">
+      <class name="alphaPackage.CourseraLoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:alphaPackage.CourseraLoginTest@815b41f]" name="init" is-config="true" duration-ms="6669" started-at="2020-04-19T19:20:28 EET" finished-at="2020-04-19T19:20:35 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="goToHomePage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:alphaPackage.CourseraLoginTest@815b41f]" name="goToHomePage" duration-ms="20695" started-at="2020-04-19T19:20:35 EET" data-provider="getData" finished-at="2020-04-19T19:20:55 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sara@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password5123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Testcase execution No.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="goToHomePage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:alphaPackage.CourseraLoginTest@815b41f]" name="goToHomePage" duration-ms="4699" started-at="2020-04-19T19:20:55 EET" data-provider="getData" finished-at="2020-04-19T19:21:00 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[saranmaher@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1/2/3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Testcase execution No.2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="end()[pri:0, instance:alphaPackage.CourseraLoginTest@815b41f]" name="end" is-config="true" duration-ms="166" started-at="2020-04-19T19:21:00 EET" finished-at="2020-04-19T19:21:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- alphaPackage.CourseraLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
