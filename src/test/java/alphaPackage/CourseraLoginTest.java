@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -35,8 +36,11 @@ public class CourseraLoginTest extends Base{
 	@Test (dataProvider = "getData")
 	public void goToHomePage (String username, String pwd , String text ) throws IOException
 	{
+		
+		//JavascriptExecutor js = (JavascriptExecutor) driver;
 		driver.get(prop.getProperty("url"));
 		LandingPage LP = new LandingPage(driver);
+		//js.executeScript("arguments[0].scrollIntoView();",LP.getLoginBtn());
 		LP.getLoginBtn().click();
 		log.info("Button in Landing page to go to Login page is clicked");
 		Assert.assertTrue(driver.getCurrentUrl().contentEquals("https://www.coursera.org/?authMode=login"));

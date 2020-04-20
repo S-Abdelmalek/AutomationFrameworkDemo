@@ -15,8 +15,8 @@ public class LandingPage {
 	}
 	
 	
-	By loginBtn = By.xpath("//a[@data-click-key='common.page_header.click.header_right_nav_button']");
-	By title = By.cssSelector(".rc-AchieveYourGoals__title");
+	private By loginBtn = By.xpath("//a[@data-click-key='common.page_header.click.header_right_nav_button']");
+	private By title = By.cssSelector(".rc-AchieveYourGoals__title");
 	
 	
 	public WebElement getLoginBtn ()

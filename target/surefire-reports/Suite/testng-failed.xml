@@ -5,15 +5,15 @@
     <listener class-name="alphaPackage.Listeners"/>
     <listener class-name="resources.ExtentReporterNG"/>
   </listeners>
-  <test thread-count="5" verbose="0" name="TitleTest(failed)">
+  <test thread-count="5" verbose="0" name="LoginTest(failed)">
     <classes>
-      <class name="alphaPackage.TitleValidationTest">
+      <class name="alphaPackage.CourseraLoginTest">
         <methods>
           <include name="end"/>
           <include name="init"/>
-          <include name="validateTitle"/>
+          <include name="goToHomePage" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- alphaPackage.TitleValidationTest -->
+      </class> <!-- alphaPackage.CourseraLoginTest -->
     </classes>
-  </test> <!-- TitleTest(failed) -->
+  </test> <!-- LoginTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

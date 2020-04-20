@@ -13,6 +13,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 
@@ -27,10 +28,13 @@ public class Base {
 		prop = new Properties();
 		FileInputStream f = new FileInputStream(".\\data.properties");
 		prop.load(f);
-		if (prop.getProperty("browser").equals("Chrome"))
+		if (prop.getProperty("browser").contains("Chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver", ".\\WebDrivers\\chromedriver.exe");
-			driver = new ChromeDriver ();
+			ChromeOptions options = new ChromeOptions ();
+			if (prop.getProperty("browser").contains("headless"))
+			options.addArguments("headless");
+			driver = new ChromeDriver (options);
 		}
 		else if(prop.getProperty("browser").equals("Firefox"))
 		{

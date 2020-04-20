@@ -12,9 +12,9 @@ public class LoginPage {
 		this.driver = driver;
 	}
 	
-	By emailTxtBox = By.cssSelector("#emailInput_4-input");
-	By PwdTxtBox = By.cssSelector("input[type='password']");
-	By LoginBtn = By.cssSelector("._1hx9z6hg.w-100");
+	private By emailTxtBox = By.cssSelector("#emailInput_4-input");
+	private By PwdTxtBox = By.cssSelector("input[type='password']");
+	private By LoginBtn = By.cssSelector("._1hx9z6hg.w-100");
 	
 	public WebElement getEmailTxtBox ()
 	{

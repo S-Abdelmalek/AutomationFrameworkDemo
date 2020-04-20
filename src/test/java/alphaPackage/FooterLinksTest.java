@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.Iterator;
 import java.util.Set;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -18,7 +19,6 @@ public class FooterLinksTest extends Base{
 	
 	WebDriver driver ;
 	
-	
 	@BeforeTest
 	void init () throws IOException
 	{
@@ -31,7 +31,7 @@ public class FooterLinksTest extends Base{
 	@Test (dataProvider = "getData")
 	public void footerLinkTest (String icon) throws IOException
 	{
-		//System.out.println("1 "+ driver.getCurrentUrl());
+		
 		LandingPage lp = new LandingPage (driver);
 		lp.getIcon(icon).click();
 		Set <String> ids = driver.getWindowHandles();

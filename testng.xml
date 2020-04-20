@@ -5,27 +5,24 @@
 <listener class-name="alphaPackage.Listeners"></listener>
 <listener class-name="resources.ExtentReporterNG"></listener>  
 </listeners>
-
-  <test name="LogosTest">
+<test name="FooterLinksTest">
     <classes>
-      <class name="alphaPackage.MultiLogoTest"/> 
-       </classes>
-         </test>
-  <test name="LoginTest">
+    	<class name="alphaPackage.FooterLinksTest"/>
+    		</classes>   
+				</test>     
+<test name="LoginTest">
     <classes>
       <class name="alphaPackage.CourseraLoginTest"/>
        </classes>
          </test>
-         
-          <test name="FooterLinksTest">
+<test name="LogosTest">
     <classes>
-      <class name="alphaPackage.FooterLinksTest"/>
-		 </classes>   
-  </test>        
-   <test name="TitleTest">
+      <class name="alphaPackage.MultiLogoTest"/> 
+       </classes>
+         </test>
+<test name="TitleTest">
     <classes>
       <class name="alphaPackage.TitleValidationTest"/> 
        </classes>
          </test>
-     
 </suite> <!-- Suite -->
