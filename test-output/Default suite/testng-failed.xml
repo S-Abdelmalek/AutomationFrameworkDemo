@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="alphaPackage.TitleValidationTest">
+      <class name="alphaPackage.CourseraCourseTest">
         <methods>
           <include name="end"/>
           <include name="init"/>
-          <include name="validateTitle"/>
+          <include name="getPythonCourse" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- alphaPackage.TitleValidationTest -->
+      </class> <!-- alphaPackage.CourseraCourseTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

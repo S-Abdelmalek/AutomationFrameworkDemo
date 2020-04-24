@@ -17,16 +17,29 @@ public class LandingPage {
 	
 	private By loginBtn = By.xpath("//a[@data-click-key='common.page_header.click.header_right_nav_button']");
 	private By title = By.cssSelector(".rc-AchieveYourGoals__title");
+	private By searchTxtBox = By.className("react-autosuggest__input");
 	
 	
 	public WebElement getLoginBtn ()
 	{
 		return driver.findElement(loginBtn);
 	}
+	public WebElement getSearchTxtBox ()
+	{
+		return driver.findElement(searchTxtBox);
+	}
 	public WebElement getTitle ()
 	{
 		return driver.findElement(title);
 	}
+	
+	
+	
+	
+	
+	
+	
+	
 	public WebElement getLogo (String logoname)
 	{
 		if (logoname == "IBM")
