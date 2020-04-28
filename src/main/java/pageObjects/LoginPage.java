@@ -15,6 +15,7 @@ public class LoginPage {
 	private By emailTxtBox = By.cssSelector("#emailInput_4-input");
 	private By PwdTxtBox = By.cssSelector("input[type='password']");
 	private By LoginBtn = By.cssSelector("._1hx9z6hg.w-100");
+	private By errorMsg = By.xpath("//div[@id='login-form-error']/span");
 	
 	public WebElement getEmailTxtBox ()
 	{
@@ -27,6 +28,10 @@ public class LoginPage {
 	public WebElement getLoginBtn ()
 	{
 		return driver.findElement(LoginBtn);
+	}
+	public WebElement getErrorMsg ()
+	{
+		return driver.findElement(errorMsg);
 	}
 
 }

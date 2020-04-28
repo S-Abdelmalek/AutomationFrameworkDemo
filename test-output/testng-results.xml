@@ -2,42 +2,62 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35037" started-at="2020-04-24T19:47:23 EET" finished-at="2020-04-24T19:47:58 EET">
+  <suite name="Default suite" duration-ms="17539" started-at="2020-04-28T20:55:15 EET" finished-at="2020-04-28T20:55:33 EET">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35037" started-at="2020-04-24T19:47:23 EET" finished-at="2020-04-24T19:47:58 EET">
-      <class name="alphaPackage.CourseraCourseTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:alphaPackage.CourseraCourseTest@63e2203c]" name="init" is-config="true" duration-ms="6148" started-at="2020-04-24T19:47:23 EET" finished-at="2020-04-24T19:47:29 EET">
+    <test name="Default test" duration-ms="17539" started-at="2020-04-28T20:55:15 EET" finished-at="2020-04-28T20:55:33 EET">
+      <class name="alphaPackage.CourseraLoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:alphaPackage.CourseraLoginTest@682b2fa]" name="init" is-config="true" duration-ms="6143" started-at="2020-04-28T20:55:15 EET" finished-at="2020-04-28T20:55:22 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="getPythonCourse(java.lang.String)[pri:0, instance:alphaPackage.CourseraCourseTest@63e2203c]" name="getPythonCourse" duration-ms="16479" started-at="2020-04-24T19:47:29 EET" data-provider="getData" finished-at="2020-04-24T19:47:46 EET">
+        <test-method status="PASS" signature="goToHomePage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:alphaPackage.CourseraLoginTest@682b2fa]" name="goToHomePage" duration-ms="5861" started-at="2020-04-28T20:55:22 EET" data-provider="getData" finished-at="2020-04-28T20:55:27 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Python 3 Programming]]>
+                <![CDATA[sara@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password5123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Testcase execution No.1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getPythonCourse -->
-        <test-method status="PASS" signature="getPythonCourse(java.lang.String)[pri:0, instance:alphaPackage.CourseraCourseTest@63e2203c]" name="getPythonCourse" duration-ms="11640" started-at="2020-04-24T19:47:46 EET" data-provider="getData" finished-at="2020-04-24T19:47:58 EET">
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="goToHomePage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:alphaPackage.CourseraLoginTest@682b2fa]" name="goToHomePage" duration-ms="5496" started-at="2020-04-28T20:55:27 EET" data-provider="getData" finished-at="2020-04-28T20:55:33 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Python for Data Science and AI]]>
+                <![CDATA[saranmaher@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1/2/3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Testcase execution No.2]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getPythonCourse -->
-        <test-method status="PASS" signature="end()[pri:0, instance:alphaPackage.CourseraCourseTest@63e2203c]" name="end" is-config="true" duration-ms="730" started-at="2020-04-24T19:47:58 EET" finished-at="2020-04-24T19:47:58 EET">
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="end()[pri:0, instance:alphaPackage.CourseraLoginTest@682b2fa]" name="end" is-config="true" duration-ms="1" started-at="2020-04-28T20:55:33 EET" finished-at="2020-04-28T20:55:33 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-      </class> <!-- alphaPackage.CourseraCourseTest -->
+      </class> <!-- alphaPackage.CourseraLoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

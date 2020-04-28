@@ -52,6 +52,7 @@ public class CourseraLoginTest extends Base{
 		LoginPg.getLoginBtn().click();
 		log.info("login button successfully clicked");
 		System.out.println(text);
+		//Assert.assertTrue(LoginPg.getErrorMsg().getText().contains("Wrong email or password. Please try again!"));
 	}
 	
 	@DataProvider 
